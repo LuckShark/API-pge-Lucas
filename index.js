@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-const SECRET = "segredo123";
+const SECRET = process.env.SECRET;
 
 const contribuintesMock = [
   { cpf: "11111111111", nome: "Peter Parker", data_nascimento: "1990-01-01", nome_mae: "May Parker" },
