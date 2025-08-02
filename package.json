@@ -1,0 +1,16 @@
+{
+  "name": "boilerplate-api-pge",
+  "version": "1.0.0",
+  "description": "Boilerplate da API simulada do teste da PGE",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
