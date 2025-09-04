@@ -2,9 +2,9 @@
   "name": "boilerplate-api-pge",
   "version": "1.0.0",
   "description": "Boilerplate da API simulada do teste da PGE",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
